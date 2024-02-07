@@ -1,0 +1,36 @@
+:root {
+  --color_bot:#3C8372;
+  --color_bar:#1E594B;
+
+}
+
+.back {
+  padding: 32px 0;
+  background-color: var(--color_bar);
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000px;
+}
+.menu .navbar ul li{
+  position: relative;
+  float: left;
+
+}
+.navbar li{
+  list-style: none;
+}
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 20px;
+  color: #fff;
+  display: block;
+}
+
+
